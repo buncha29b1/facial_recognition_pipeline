@@ -1,0 +1,11 @@
+# Pure-PyTorch facial recognition stack (no onnxruntime).
+# For a CUDA build, install the matching torch/torchvision wheels from
+# https://pytorch.org first, then `pip install -r requirements.txt`.
+
+torch>=2.2
+torchvision>=0.17
+facenet-pytorch>=2.5.3
+numpy
+scikit-learn
+matplotlib
+pillow

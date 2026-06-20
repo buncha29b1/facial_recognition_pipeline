@@ -1,0 +1,28 @@
+# --- Sample images (excluded from the repo on request) ---
+image1.png
+image2.png
+image3.jpg
+image4.jpg
+
+# --- Downloaded datasets & model caches (auto-fetched at runtime) ---
+data/
+dataset/
+*.tgz
+*.tar.gz
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- IDE / OS ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
